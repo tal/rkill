@@ -21,5 +21,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
-  s.add_runtime_dependency "ps"
+  s.add_runtime_dependency "ps", '>= 0.0.6'
+  s.add_runtime_dependency "ansi"
 end
